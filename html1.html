@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML1 · 主页面</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/html1.js" defer></script>
+</head>
+<body>
+  <main class="card">
+    <span class="badge">01 / 主页面</span>
+    <h1>子窗口关闭测试</h1>
+    <p>点击按钮打开 HTML2，模拟支付后跳转 HTML3。HTML3 将在 3 秒后尝试关闭。</p>
+    <div class="flow">HTML1 → 打开 HTML2 → 跳转 HTML3 → 关闭</div>
+    <button id="open-payment" type="button">打开 HTML2，开始测试</button>
+    <p class="status" id="status" role="status">等待开始。请观察关闭后是否回到此页面。</p>
+    <h2>测试记录</h2>
+    <ol class="events" id="events" aria-live="polite"></ol>
+    <p class="note">请在手机浏览器中打开。浏览器或 App 内置 WebView 的行为可能不同，以手机实测为准。</p>
+  </main>
+</body>
+</html>

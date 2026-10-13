@@ -1,0 +1,9 @@
+{
+  "name": "h5-window-close-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "手机 H5 子窗口支付跳转与自动关闭测试",
+  "scripts": {
+    "start": "node scripts/server.cjs"
+  }
+}
